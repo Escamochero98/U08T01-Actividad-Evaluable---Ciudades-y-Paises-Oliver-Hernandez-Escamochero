@@ -1,0 +1,194 @@
+body {
+  font-size: 1em;
+  margin: 0;
+}
+
+#todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#paises {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 65%;
+  height: 390px;
+}
+
+#pri-contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(60, 60, 255, 0.849);
+  color: white;
+}
+
+#partida-tiempo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: skyblue;
+  color: white;
+  padding: 1em;
+  border-bottom: 2px solid lightgrey;
+}
+
+#partida-boton {
+  color: rgba(60, 60, 255, 0.849);
+  border: 2px solid rgba(60, 60, 255, 0.849);
+  border-radius: 10px;
+  padding: 0.5em;
+  width: 10em;
+  outline: none;
+  font-weight: bolder;
+  background-color: white;
+}
+
+#partida-boton:hover {
+  background-color: whitesmoke;
+}
+
+#partida-boton:active {
+  background-color: rgba(181, 200, 219, 0.911);
+}
+
+#partida-boton:disabled {
+  background-color: rgba(223, 223, 255, 0.89);
+  border-color: #6898ff;
+  color: #6898ff;
+}
+
+#mapid {
+  height: 390px;
+  width: 35%;
+}
+
+#tiempo-contenedor {
+  font-size: 1.25em;
+  font-weight: bolder;
+  color: rgba(60, 60, 255, 0.849);
+}
+
+#ciudad-nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35%;
+  padding: 0em 4em 0em 4em;
+}
+
+#pais-contenedor {
+  height: 50%;
+  border-top: 3px dotted grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0em 4em 0em 4em;
+}
+
+#ciudades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 35%;
+}
+
+#contenedores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 75%;
+}
+
+#seg-parte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 2px solid cornflowerblue;
+}
+
+#chart_div {
+  height: 17em;
+  width: 55em;
+  margin-top: 1em;
+}
+
+#piechart {
+  margin-left: 7em;
+}
+
+.draggable {
+  padding: 0.5em;
+  border: 1.75px solid #3c84d8;
+  border-radius: 6px;
+  color: #3c84d8;
+  font-size: 1.2em;
+  font-weight: bolder;
+  background-color: white;
+}
+
+.respuesta {
+  border: 1.75px solid #3c84d8;
+  color: #3c84d8;
+  border-radius: 6px;
+  font-weight: bolder;
+  width: 8em;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: white;
+}
+
+.droppable {
+  border-top: 2px solid #3c84d8;
+  width: 100%;
+  height: 4em;
+}
+/*# sourceMappingURL=estilo.css.map */

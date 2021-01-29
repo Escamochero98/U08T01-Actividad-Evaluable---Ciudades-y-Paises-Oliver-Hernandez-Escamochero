@@ -1,0 +1,14 @@
+{
+  "name": "ciudades_y_paises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oliver Hernandez Escamochero",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}
